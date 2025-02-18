@@ -6,8 +6,8 @@ on:
       - "main"
       - "sbom-test" # TODO: remove 
     paths:
-      - "pyproject.toml"
-      - "requirements.txt"
+      - "kuksa-client/pyproject.toml"
+      - "kuksa-client/requirements.txt"
     tags:
       - "*"
   workflow_dispatch:
