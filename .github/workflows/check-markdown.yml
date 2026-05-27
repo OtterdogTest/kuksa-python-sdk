@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
           submodules: 'true'
-      - uses: eclipse-kuksa/kuksa-actions/check-markdown@4
+      - uses: eclipse-kuksa/kuksa-actions/check-markdown@0c376e21852e797afd70ac2d8bba94b4b313cd43 # 4
